@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="calculator">
+            <div id="result">
+                <div id="history">
+                    <p id="history-value"></p>
+                </div>
+                <div id="output">
+                    <div id="output-value"></div>
+                </div>
+            </div>
+            
+            <div class="first-section absolute">
+                <!-- <button class="margin-left operator" id="+/-">+/-</button> -->
+                <button class="operator margin-left" id="%">%</button>
+                <button class="number" id="0">0</button>
+                <button class="operator" id=".">.</button>
+                <button class="operator" id="=">=</button>
+            </div>
+
+            <div class="second-section absolute">
+                <button class="margin-left number" id="1">1</button>
+                <button class="number" id="2">2</button>
+                <button class="number" id="3">3</button>
+                <button class="operator" id="+">+</button>
+            </div>
+            <div class="third-section absolute">
+                <button class="margin-left number" id="4">4</button>
+                <button class="number" id="5">5</button>
+                <button class="number" id="6">6</button>
+                <button class="operator" id="-">-</button>
+            </div>
+            
+            <div class="fourth-section absolute">
+                <button class="margin-left number" id="7">7</button>
+                <button class="number" id="8">8</button>
+                <button class="number" id="9">9</button>
+                <button class="operator" id="*">*</button>
+            </div>
+            
+            <div class="fifth-section absolute">
+                <button class="margin-left operator" id="empty">C</button>
+                
+                <button class="operator" id="/">÷</button>
+                <button class="operator doubled-button" id="backspace">&#8592</button>
+            </div>
+
+        </div>
+    </div>
+    
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
